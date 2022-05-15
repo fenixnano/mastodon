@@ -25,7 +25,7 @@ jobs:
       - uses: docker/metadata-action@v3
         id: meta
         with:
-          images: tootsuite/mastodon
+          images: fenixnano/mastodon
           flavor: |
             latest=auto
           tags: |
