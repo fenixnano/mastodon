@@ -20,5 +20,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           context: .
 +           platforms: linux/amd64,linux/arm64
-          repository: fenixnano/mastodon
-          tags: latest
+
+          tags: fenixnano/mastodon:latest
