@@ -37,6 +37,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: latest
+          tags: 'latest'
           cache-from: type=registry,ref=tootsuite/mastodon:latest
           cache-to: type=inline
