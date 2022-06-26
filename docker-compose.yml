@@ -125,8 +125,7 @@ services:
     networks:
       - external_network
       - internal_network
-	
-	
+      
 networks:
   external_network:
   internal_network:
